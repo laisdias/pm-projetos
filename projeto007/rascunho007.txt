@@ -1,0 +1,23 @@
+o site é dividido em seções
+
+tem um rodapé (footer)
+
+tem um cabeçalho (header)
+The <header> element represents a container for introductory content or a set of navigational links.
+A <header> element typically contains:
+    one or more heading elements (<h1> - <h6>)
+    logo or icon
+    authorship information
+You can have several <header> elements in one document.
+Note: A <header> tag cannot be placed within a <footer>, <address> or another <header> element.
+
+
+tag section (serve para agrupar um conjunto de elementos)
+
+logo (com h1)
+
+ul que representa o menu pode estar dentro da tag nav
+
+para cada uma das seções pode usar uma section (com uma id)
+
+input text e placeholder tudo dentro da tag form

@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('font/muli-extrabold-webfont-webfont.woff2') format('woff2'),
+    url('font/muli-extrabold-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'webfontregular';
+    src: url('font/muli-extralightitalic-webfont-webfont.woff2') format('woff2'),
+    url('font/muli-extralightitalic-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'webfont/regular';
+    src: url('font/muli-regular-webfont-webfont.woff2') format('woff2'),
+    url('font/muli-regular-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'webfont/regular';
+}
+
+html{
+    background-image: url('imagens/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.principal{
+    display: flex;
+    height: 550px;
+    width: 730px;
+    margin: 0px 0px 0px 20px;
+    background-color: #ffffff;
+}
+.compras{
+    width: 100%;
+    background-color: #ebebeb;
+    float: right;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.formulario{
+    margin: 0px 0px 0px 20px;
+}
+header{
+    width: 730px;
+    display: inline-flex;
+    color: #5e5f5f;
+    border-bottom: 1px solid #eaeaea;
+    margin: 20px 0px 0px 20px;
+    display: inline-flex;
+    background-color: #ffffff;
+}
+header a{
+    background-image: url('imagens/x.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0px 0px 0px 220px;
+}
+header a span{
+    visibility: hidden;
+}
+header h2{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 0px 0px 0px 20px;
+}
+header small{
+    margin: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+.formulario h2{
+    color: #777879;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.formulario ul.cartao{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    justify-content:center;
+}
+::-moz-placeholder{
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 400; 
+}
+.formulario ul.cartao li{
+    padding: 15px;
+    margin: 3px; 
+    width: 84px;
+}
+.formulario ul.cartao label{
+    color: #777879;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px 0px 0px -5px;
+    display: block;
+    text-align: center;
+}
+.formulario ul.cartao input{
+    width: 72px;
+    height: 48px;   
+}
+.formulario ul.cartao li:hover{
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 0px 3px #d1e2f6;
+    background-color: #f5f9fd;
+}
+.formulario ul.cartao li.active{
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 0px 3px #d1e2f6;
+    background-color: #f5f9fd;
+}
+.formulario ul.newcard{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.formulario ul.newcard li{
+    padding: 10px 0px 10px 30px;
+    text-align: center; 
+    width: 270px;
+}
+.formulario ul.newcard li input{
+    width: 270px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #dedede;
+    background-color: #ffffff;
+}
+.formulario ul.newcard h2{
+    border-bottom: 1px solid #eaeaea;
+    width: 354px;
+    padding-bottom: 10px;
+}
+.formulario ul.newcard li.date input{
+    width: 149px;
+}
+.formulario ul.newcard li.cvc input{
+    width: 96px;
+}
+.formulario ul.newcard li.cvc, li.date{
+    display: inline;
+    padding: 17px;
+}
+.formulario .checkbox{
+    color: #777879;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+    padding: 30px;
+}
+.formulario .checkbox input{
+    margin: 0px 10px 0px 0px;
+}
+.formulario button{
+    width: 289px;
+    height: 44px;
+    border-radius: 2px;
+    background-color: #8bd638;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: 'webfont/regular';
+    border: none;  
+}
+.formulario .botao{
+    padding: 20px;
+}
+.compras ul.lista-compras{
+    list-style: none;
+    padding: 0px;
+    margin: 20px;
+}
+.compras ul.lista-compras img{
+    width: 42px;
+    height: 35px;
+    float: left;
+}
+.compras ul.lista-compras li h3{
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.compras ul.lista-compras li p.first{
+    color: #4a4a4a;
+    font-size: 10px;
+    font-weight: 200;
+    font-style: italic;
+}
+.compras ul.lista-compras li p.last{
+    color: #9c9c9c;
+    font-size: 10px;
+    font-weight: 700;
+}
+.compras ul.lista-compras li small{
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+    float: right;
+}
+.compras ul.lista-compras li{
+    margin: 0px 0px 0px 55px;
+    line-height: 5px;
+}
+.compras ul.lista-compras li small{
+    margin-top: -45px;
+}
+.compras ul.lista-compras .itens{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0px 4px 0px;
+}
+.compras ul.lista-compras .itens:last-child{
+    border: none;
+}
+table.normal{
+    border-top: 1px solid #d5d3d6;
+    width: 300px;
+    margin: 100px 20px 20px 20px;
+}
+table.normal td{
+    color: #777879;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 10px 0px 0px 0px;
+}
+table.normal td.preco{
+    float: right;
+}
+table.total{
+    border-top: 1px solid #d5d3d6;
+    width: 300px;
+    margin: 0px 20px 20px 20px;
+}
+table.total td{
+    color: #777879;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+table.total td.preco{
+    float: right;
+}
+
+

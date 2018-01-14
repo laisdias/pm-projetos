@@ -1,0 +1,38 @@
+.logo{
+    text-align: center;
+    padding: 53px;
+}
+body{
+    background-color: #ffffff;
+    padding: 10px;
+}
+body .card{
+    margin-bottom: 30px;
+}
+body .card h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+body .card img{
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .card{
+        width: 250px;
+        padding: 20px;
+        float: left;
+    }   
+    
+}
+
+

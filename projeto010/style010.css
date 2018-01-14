@@ -1,0 +1,147 @@
+html{
+    background-color: #f5f8f9;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.columns{
+    height: 100vw;
+}
+.column{
+    margin: 0px;
+    padding: 0px;
+}
+section#lateral{
+    background-color: #3a3c40;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+section#lateral img{
+    width: 140px;
+    height: 150px;
+    margin: 30px 10px 3px 10px;
+}
+section#lateral h1{
+    text-transform: uppercase;
+    color: #48D1CC;
+    font-size: 24px;
+    font-weight: 700;
+}
+section#lateral p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+section#lateral a.button{
+    width: 140px;
+    height: 47px;
+    box-shadow: 0 4px 0 rgba(35, 196, 245, 0.6);
+    border-radius: 3px;
+    background-color: #48D1CC;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px;
+    border: none;
+}
+section#lateral .redes-sociais i{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 6px;
+}
+section#lateral progress{
+    width: 221px;
+    height: 10px;
+}
+.progress::-webkit-progress-value {
+  background-color: #5addee;
+}
+.progress::-moz-progress-bar {
+  background-color: #5addee;
+}
+section#lateral ul{
+    list-style: none
+}
+section#lateral ul li small{
+    color: #8fa4af;
+    font-size: 12px;
+}
+section#lateral ul li{
+    padding: 5px;
+}
+section#lateral .progresso p{
+    color: #eeeeee;
+    font-size: 16px;
+    margin-top: 40px;
+}
+section#conteudo{
+    background-color: #ffffff;
+    height: 1212px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(155, 155, 155, 0.3);
+}
+section#conteudo h3{
+    color: #9932CC;
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 1px solid #9932CC;
+}
+section#conteudo i{
+    padding: 10px;
+}
+section#conteudo p{
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+}
+section#conteudo p.texto-lateral-um{
+    color: #3a3c40;
+    font-size: 17px;
+    font-weight: 700;
+    float: left;
+    margin: -10px;
+}
+section#conteudo p.texto-lateral-dois{
+    font-weight: 400;
+    color: #3a3c40;
+    font-size: 15px;
+    float: left;
+    margin: -10px;
+}
+section#conteudo p.texto-lateral-tres{
+    font-weight: 300;
+    color: #3a3c40;
+    font-size: 15px;
+    float: left;
+    margin: -10px;
+}
+section#conteudo p.texto-direita{
+    float: right;
+    display: flex;
+    width: 343px;
+}
+section#conteudo .experiencia{
+    margin: 20px 0px 10px 0px;
+    width: 565px;
+}
+section#conteudo .resumo{
+    margin: 20px 0px 10px 0px;
+    width: 565px;
+}
+section#conteudo .formacao{
+    margin: 20px 0px 10px 0px;
+    width: 565px;
+}
+section#conteudo .texto{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}

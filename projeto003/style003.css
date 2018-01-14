@@ -46,8 +46,7 @@ form{
 .esqueciasenha p{
     color: #ffffff;
     font-family: 'Roboto';
-    font-size: 14px;
-    margin-top: 0px;
+    font-size: 14px;    margin-top: 10px;
 }
 
 .login a{
@@ -58,6 +57,5 @@ form{
     color: #ffffff;
     font-family: 'Roboto';
     font-size: 14px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
-
